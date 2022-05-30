@@ -1,7 +1,7 @@
 <template>
     <img class="mt-7 w-full" src="../assets/images/Background_homepage.webp" alt="homepagebackground">
-    <div class="bg-gray-900 text-white -skew-y-6 h-60 -mt-10 mb-24 inline-block"> 
-        <div class="skew-y-6 mx-8 font-bold text-center text-2xl">
+    <div class="bg-gray-900 text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0"> 
+        <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:-skew-y-0">
             <p class="pt-8 mb-5">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
             <router-link to="/billeterie">
                 <redbuttonVue>
@@ -21,13 +21,13 @@
             </router-link>
         </div>
     </div>
-    <div class="bg-gray-900 text-white skew-y-12 h-60 -mt-10 mb-28 inline-block w-full"> 
-        <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center mt-12">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
+    <div class="bg-gray-900 text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0"> 
+        <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
     </div>
     <!--footer-->
   <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
-      <div class="flex-col">
+      <div class="flex-col sm:justify-around">
         <p class="text-white mb-3">Suivez-nous ici:</p>
         <div class="flex justify-between items-center">
           <a href="https://www.facebook.com/">
