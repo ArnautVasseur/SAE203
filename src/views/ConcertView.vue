@@ -23,7 +23,6 @@
         </div>
     </div>
   </div>
-
   <!--Design effect-->
     <div class="bg-gray-900 w-full h-44 -mt-40"></div>
   <!--Design effect-->
