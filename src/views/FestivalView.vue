@@ -64,6 +64,9 @@ export default{
         menuOuvert:false,
         }
     },
+    created() {
+        document.body.style.backgroundColor = "#ffffff";
+    }
 }
 </script>
 

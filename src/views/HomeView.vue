@@ -62,6 +62,9 @@ export default{
     },
     components:{
         redbuttonVue
+    },
+    created() {
+        document.body.style.backgroundColor = "#ffffff";
     }
 }
 </script>

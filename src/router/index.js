@@ -19,6 +19,8 @@ const router = createRouter({
     { path: '/contact',   name: 'contact',    component: ContactView},
     { path: '/mentionslegales',   name: 'mentionslégales',    component: MentionsLégalesView},
     { path: '/billeterie',   name: 'billeterie',    component: BilleterieView},
+    { path: "/:catchAll(.*)", redirect: '/404',},
+    { path: '/404', name: 'PageNotExist', component: () => import('../views/Page404.vue')}
   ]
 })
 

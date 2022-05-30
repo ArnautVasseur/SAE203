@@ -100,6 +100,9 @@ export default{
     },
     components:{
         redbuttonVue, formuleVue, billeterieVue
+    },
+    created() {
+        document.body.style.backgroundColor = "#ffffff";
     }
 }
 </script>
