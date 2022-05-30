@@ -1,23 +1,23 @@
 <template>
-  <img src="../assets/images/background_festival.webp" alt="backgroundfestival" class="mt-10">
-  <div class="bg-gray-900 text-white -skew-y-12 -mt-10 inline-block w-full"> 
-    <div class="skew-y-12 mx-8 text-center">
+  <img src="../assets/images/background_festival.webp" alt="backgroundfestival" class="mt-10 w-full">
+  <div class="bg-gray-900 text-white -skew-y-12 -mt-10 inline-block w-full sm:skew-y-0"> 
+    <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3">Thème</h2>
           <p class="">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
     </div>
-    <div class="skew-y-12 mx-8 text-center">
+    <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3">Propreté</h2>
           <p>Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
         </div>
     </div>
-    <div class="skew-y-12 mx-8 text-center pb-20">
+    <div class="skew-y-12 mx-8 text-center pb-20 sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3">Thème</h2>
           <p class="">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>

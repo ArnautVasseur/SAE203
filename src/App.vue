@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </div>
   <div class="flex-col">
     <RouterLink to="/">
-      <img src="./components/icons/Logo.svg" alt="Logo" class="m-auto w-20 mt-5"/>
+      <img src="./components/icons/Logo.svg" alt="Logo" class="m-auto w-20 mt-5 sm:w-32"/>
     </RouterLink>
     <h1 class="text-center font-bold text-lg">Metalancolique</h1>
   </div>

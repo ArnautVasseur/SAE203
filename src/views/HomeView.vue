@@ -14,7 +14,7 @@
     </div>
     <div>
         <h2 class="mb-5 text-center text-2xl font-bold">Ne manquez pas vos artistes préférés !</h2>
-        <div class="flex mb-32 mx-8 items-center justify-between">
+        <div class="flex mb-32 mx-8 items-center justify-around">
             <p class="text-2xl font-medium">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
             <router-link to="/programme">
                 <img src="../assets/images/calendar.webp" alt="calendar" class="w-32">
