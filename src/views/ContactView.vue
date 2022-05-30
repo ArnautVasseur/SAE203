@@ -1,7 +1,7 @@
 <template>
 
-  <div class="bg-gray-900 text-white -skew-y-6 mt-10 mb-24 inline-block w-full"> 
-    <div class="skew-y-6 mx-8 text-center text-2xl pb-16">
+  <div class="bg-gray-900 text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
+    <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0">
         <p class="pt-8 mb-8 mt-5 font-bold">Rejoignez la communauté :</p>
         <div class="flex justify-around mb-5">
           <svg class="" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="45px" height="45px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
