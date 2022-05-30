@@ -1,57 +1,58 @@
 <template>
-  <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 inline-block w-full"> 
-      <div class="skew-y-6 mx-8 font-bold text-center text-2xl">
+  <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
+      <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:skew-y-0">
           <p class="py-8">Découvrez en détail les artistes présents lors du festival</p>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Queen.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Queen.webp" alt="Queen" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">Queen</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Rolling_Stones.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Rolling_Stones.webp" alt="Rolling_Stones" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">Rollings Stones</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Bon_Jovi.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Bon_Jovi.webp" alt="Bon_Jovi" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">Bon Jovi</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/JJG.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/JJG.webp" alt="JJG" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">Jean Jacques Goldman</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Europe.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Europe.webp" alt="Europe" class="border-4 rounded-xl border-white hover:border-red-700">
             
               <p class="underline">Europe</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Aerosmith.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Aerosmith.webp" alt="Aerosmith" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">Aerosmith</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl py-10">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/Scorpions.webp" alt="Queen" class="w-56 h-56 block m-auto">
+            <img src="../assets/images/Scorpions.webp" alt="Scorpions" class="border-4 rounded-xl border-white hover:border-red-700">
             
               <p class="underline">Scorpions</p>
             </router-link>
           </div>
-          <div class="flex-col justify-center text-center text-2xl pt-10 pb-16">
+          <div class="mb-10">
             <router-link to="/concert">
-            <img src="../assets/images/A-Ah.webp" alt="Queen" class="w-56 h-56 block m-auto">
-            
+            <img src="../assets/images/A-Ah.webp" alt="A-Ah" class="border-4 rounded-xl border-white hover:border-red-700">
               <p class="underline">A-Ah</p>
             </router-link>
+          </div>
           </div>
       </div>
     </div>
