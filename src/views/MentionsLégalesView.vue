@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-900 text-white skew-y-6 mt-10 mb-24 inline-block w-full"> 
-      <div class="-skew-y-6 mx-8 pb-16">
+    <div class="bg-gray-900 text-white skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0 sm:text-lg"> 
+      <div class="-skew-y-6 mx-8 pb-16 pt-10 sm:skew-y-0 sm:mx-20">
           <h2 class="my-6">MENTIONS LÉGALES</h2>
           <p class="my-6">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Métalancolique l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
           <h2 class="my-6">Edition du site </h2>
