@@ -15,7 +15,7 @@ import { RouterLink, RouterView } from 'vue-router'
               :class="{ 'translate-x-0': menuOuvert }" v-if="menuOuvert">
                 <div class="flex-col">
                   <RouterLink to="/about">
-                      
+                    
                   </RouterLink>
                 </div>
           </div>
@@ -43,7 +43,7 @@ export default{
     }
   },
   components:{
-    
+
   }
 }
 
