@@ -75,6 +75,9 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <script>
 import redbuttonVue from './components/redbutton.vue';
+import buttonmenuVue from './components/buttonmenu.vue';
+import billeterieVue from './components/billeterie.vue';
+import formuleVue from './components/formule.vue';
 
 export default{
   name:"",
@@ -84,7 +87,7 @@ export default{
     }
   },
   components:{
-    redbuttonVue
+    redbuttonVue, buttonmenuVue, billeterieVue, formuleVue
   }
 }
 
