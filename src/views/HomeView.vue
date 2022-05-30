@@ -3,11 +3,13 @@
     <div class="bg-gray-900 text-white -skew-y-6 h-60 -mt-10 mb-24 inline-block"> 
         <div class="skew-y-6 mx-8 font-bold text-center text-2xl">
             <p class="pt-8 mb-5">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
-            <redbuttonVue>
-                <slot>
-                    Réserver
-                </slot>
-            </redbuttonVue>
+            <router-link to="/billeterie">
+                <redbuttonVue>
+                    <slot>
+                        Réserver
+                    </slot>
+                </redbuttonVue>
+            </router-link>
         </div>
     </div>
     <div>

@@ -1,5 +1,30 @@
 <template>
-    
+    <div class="bg-gray-900 text-white -skew-y-6 mt-10 w-full h-[930px]"> 
+        <div class="skew-y-6 mx-8 font-bold text-center text-2xl flex-col">
+            <p class="pt-8">Billets jours simples</p>
+            <div class="m-auto text-black">
+                <billeterieVue class="my-10"
+                date="22 juillet 2023"/>
+                <billeterieVue class="my-10"
+                date="23 juillet 2023"/>
+                <billeterieVue class="my-10"
+                date="24 juillet 2023"/>
+                <billeterieVue class="my-10"
+                date="25 juillet 2023"/>
+            </div>
+        </div>
+    </div>
+    <h2 class="text-center mt-10 text-black text-2xl mb-10">Formules</h2>
+        <div class="m-auto  mx-8">
+            <formuleVue class="mb-10"
+            formule="Formule Week-End"
+            dates="22-23 juillet 2023"/>
+            <formuleVue class=""
+            formule="Formule Complète"
+            dates="22-23-24-25 juillet 2023"/>
+        </div>
+    <p class="mb-5 text-center mt-10 text-2xl font-medium">Retour en haut de la page</p>
+        <img src="../components/icons/UpArrow.svg" alt="uparrow" class="mb-40 m-auto block">
   <!--footer-->
   <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
@@ -18,11 +43,20 @@
 </template>
 
 <script>
-export default {
+import redbuttonVue from '../components/redbutton.vue';
+import formuleVue from '../components/formule.vue';
+import billeterieVue from '../components/billeterie.vue';
 
+export default{
+    name:"",
+    data(){
+        return{
+        menuOuvert:false,
+        }
+    },
+    components:{
+        redbuttonVue, formuleVue, billeterieVue
+    }
 }
 </script>
 
-<style>
-
-</style>

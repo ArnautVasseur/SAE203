@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-700 text-white text-center py-6 font-bold text-2xl w-72 h-56 rounded-2xl">
+    <div class="bg-gray-700 text-white text-center py-6 font-bold text-2xl w-full h-56 rounded-2xl">
         <p class="my-3 underline">{{formule}}</p>
         <p class="mb-7">{{dates}}</p>
         <redbutton-vue class="mb-6">
