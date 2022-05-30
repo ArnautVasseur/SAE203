@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 inline-block"> 
+  <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 inline-block w-full"> 
       <div class="skew-y-6 mx-8 font-bold text-center text-2xl">
           <p class="py-8">Découvrez en détail les artistes présents lors du festival</p>
           <div class="flex-col justify-center text-center text-2xl py-10">

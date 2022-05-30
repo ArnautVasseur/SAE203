@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-900 text-white -skew-y-6 mt-10 w-full h-[930px]"> 
-        <div class="skew-y-6 mx-8 font-bold text-center text-2xl flex-col">
+    <div class="bg-gray-900 text-white -skew-y-6 mt-10 w-full h-[930px] sm:skew-y-0"> 
+        <div class="skew-y-6 mx-8 font-bold text-center text-2xl flex-col sm:skew-y-0 sm:mx-24">
             <p class="pt-8">Billets jours simples</p>
             <div class="m-auto text-black">
                 <billeterieVue class="my-10"
@@ -14,12 +14,12 @@
             </div>
         </div>
     </div>
-    <h2 class="text-center mt-10 text-black text-2xl mb-10">Formules</h2>
-        <div class="m-auto  mx-8">
+    <h2 class="text-center mt-10 text-black text-2xl mb-10 font-bold">Formules</h2>
+        <div class="m-auto sm:mx-24 mx-8">
             <formuleVue class="mb-10"
             formule="Formule Week-End"
             dates="22-23 juillet 2023"/>
-            <formuleVue class=""
+            <formuleVue
             formule="Formule Complète"
             dates="22-23-24-25 juillet 2023"/>
         </div>
