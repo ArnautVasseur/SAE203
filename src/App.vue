@@ -65,7 +65,6 @@ import { RouterLink, RouterView } from 'vue-router'
               </div>
             </RouterLink>
           </div>
-          
     </div>
   </nav>
   <!--Fin Menu-->
