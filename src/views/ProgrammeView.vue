@@ -1,4 +1,34 @@
 <template>
+    <div class="bg-gray-900 skew-y-12 text-white mt-10">
+        <div class="-skew-y-12 text-center mx-8 pb-24">
+            <h2 class="pt-14 text-xl font-medium">Retrouvez le détail du programme du festival</h2>
+            <dropdown-vue class="mt-10"
+                date="22 juillet 2023"
+                matin="9h-12h: Bon Jovi"
+                aprèsmidi="14h-17h: Europe"
+                soir="20h-23h: Aerosmith"/>
+
+                <dropdown-vue class="mt-10"
+                date="23 juillet 2023"
+                matin="9h-12h: Bon Jovi"
+                aprèsmidi="14h-17h: Europe"
+                soir="20h-23h: Aerosmith"/>
+
+                <dropdown-vue class="mt-10"
+                date="24 juillet 2023"
+                matin="9h-12h: Bon Jovi"
+                aprèsmidi="14h-17h: Europe"
+                soir="20h-23h: Aerosmith"/>
+
+                <dropdown-vue class="mt-10"
+                date="25 juillet 2023"
+                matin="9h-12h: Bon Jovi"
+                aprèsmidi="14h-17h: Europe"
+                soir="20h-23h: Aerosmith"/>
+        </div>
+    </div>
+    
+
   <!--footer-->
   <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
@@ -17,8 +47,18 @@
 </template>
 
 <script>
-export default {
+import dropdownVue from '../components/drowdown.vue'
 
+export default {
+    name:"",
+  data(){
+    return{
+      menuOuvert:false,
+    }
+  },
+    components:{
+        dropdownVue
+    }
 }
 </script>
 
