@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-gray-900 skew-y-12 text-white mt-10">
-        <div class="-skew-y-12 text-center mx-8 pb-24">
+    <div class="bg-gray-900 skew-y-12 text-white mt-10 sm:skew-y-0">
+        <div class="-skew-y-12 text-center mx-8 pb-24 sm:skew-y-0 sm:pb-40">
             <h2 class="pt-14 text-xl font-medium">Retrouvez le détail du programme du festival</h2>
             <dropdown-vue class="mt-10"
                 date="22 juillet 2023"
