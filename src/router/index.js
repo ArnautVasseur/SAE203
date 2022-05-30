@@ -17,7 +17,7 @@ const router = createRouter({
     { path: '/artistes',   name: 'artistes',    component: ArtistesView},
     { path: '/concert',   name: 'concert',    component: ConcertView},
     { path: '/contact',   name: 'contact',    component: ContactView},
-    { path: '/mentionslégales',   name: 'mentionslégales',    component: MentionsLégalesView},
+    { path: '/mentionslegales',   name: 'mentionslégales',    component: MentionsLégalesView},
     { path: '/billeterie',   name: 'billeterie',    component: BilleterieView},
   ]
 })

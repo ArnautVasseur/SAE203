@@ -48,12 +48,6 @@ import formuleVue from '../components/formule.vue';
 import billeterieVue from '../components/billeterie.vue';
 
 export default{
-    name:"",
-    data(){
-        return{
-        menuOuvert:false,
-        }
-    },
     components:{
         redbuttonVue, formuleVue, billeterieVue
     }

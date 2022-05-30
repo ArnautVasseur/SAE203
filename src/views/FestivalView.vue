@@ -1,4 +1,36 @@
 <template>
+  <img src="../assets/images/background_festival.webp" alt="backgroundfestival" class="mt-10">
+  <div class="bg-gray-900 text-white -skew-y-12 -mt-10 inline-block w-full"> 
+    <div class="skew-y-12 mx-8 text-center">
+        <p class="pt-8 mb-5"></p>
+        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+          <h2 class="text-center font-medium text-3xl mb-3">Thème</h2>
+          <p class="">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
+        </div>
+    </div>
+    <div class="skew-y-12 mx-8 text-center">
+        <p class="pt-8 mb-5"></p>
+        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+          <h2 class="text-center font-medium text-3xl mb-3">Propreté</h2>
+          <p>Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
+        </div>
+    </div>
+    <div class="skew-y-12 mx-8 text-center pb-20">
+        <p class="pt-8 mb-5"></p>
+        <div class="bg-gray-300 w-full m-auto block p-4 rounded-xl text-black">
+          <h2 class="text-center font-medium text-3xl mb-3">Thème</h2>
+          <p class="">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
+        </div>
+    </div>
+  </div>
+
+    <!--Design effect-->
+    <div class="bg-gray-900 w-full h-44 -mt-16"></div>
+    <!--Design effect-->
+  
+  
+  
+  
   <!--footer-->
   <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
@@ -13,17 +45,12 @@
       <p class="text-white underline mt-12">Mentions légales</p>
     </div>
   </footer>
-    <!--footer-->
+  <!--footer-->
 </template>
 
 <script>
 export default {
-    name:"",
-  data(){
-    return{
-      menuOuvert:false,
-    }
-  },
+
 }
 </script>
 

@@ -18,12 +18,6 @@
 
 <script>
 export default {
-    name:"",
-  data(){
-    return{
-      menuOuvert:false,
-    }
-  },
 }
 </script>
 
