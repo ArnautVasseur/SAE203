@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray light:bg-light_gray text-white light:text-black -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0 sm:mx-32">
         <p class="pt-8 mb-8 mt-5 font-bold font-metal-mania text-2xl">Détail Concert Bon Jovi</p>
-        <div class="bg-light_gray dark:bg-dark_gray w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold font-mulish">
+        <div class="bg-light_gray light:bg-dark_gray w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold font-mulish">
           <p class="my-5">Livin' on a prayer</p>
           <p class="my-5">You Give Love A Bad Name</p>
           <p class="my-5">It’s My Life</p>
@@ -24,14 +24,14 @@
     </div>
   </div>
   <!--Design effect-->
-    <div class="bg-dark_gray dark:bg-light_gray w-full h-44 -mt-40"></div>
+    <div class="bg-dark_gray light:bg-light_gray w-full h-44 -mt-40"></div>
   <!--Design effect-->
 
   <!--footer-->
   <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
-        <p class="text-white dark:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
+        <p class="text-white light:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
         <div class="flex justify-between items-center">
           <a href="https://www.facebook.com/">
             <svg class="mx-2 sm:mx-7" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="45px" height="45px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
@@ -45,7 +45,7 @@
         </div>
       </div>
       <router-link to="/mentionslegales">
-        <p class="text-white dark:text-black underline mt-12 sm:text-xl">Mentions légales</p>
+        <p class="text-white light:text-black underline mt-12 sm:text-xl">Mentions légales</p>
       </router-link>
     </div>
   </footer>

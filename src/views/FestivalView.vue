@@ -1,23 +1,23 @@
 <template>
   <img src="../assets/images/background_festival.webp" alt="backgroundfestival" class="mt-10 w-full">
-  <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black -skew-y-12 -mt-10 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray light:bg-light_gray text-white light:text-black -skew-y-12 -mt-10 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray light:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Thème</h2>
           <p class="text-lg ">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray light:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Propreté</h2>
           <p class="text-lg ">Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center pb-20 sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray light:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Thème</h2>
           <p class="text-lg ">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
@@ -35,7 +35,7 @@
   <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
-        <p class="text-white dark:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
+        <p class="text-white light:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
         <div class="flex justify-between items-center">
           <a href="https://www.facebook.com/">
             <svg class="mx-2 sm:mx-7" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="45px" height="45px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
@@ -49,7 +49,7 @@
         </div>
       </div>
       <router-link to="/mentionslegales">
-        <p class="text-white dark:text-black underline mt-12 sm:text-xl">Mentions légales</p>
+        <p class="text-white light:text-black underline mt-12 sm:text-xl">Mentions légales</p>
       </router-link>
     </div>
   </footer>

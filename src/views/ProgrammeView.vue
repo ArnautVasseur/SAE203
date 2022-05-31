@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-dark_gray dark:bg-light_gray skew-y-12 text-white dark:text-black mt-10 sm:skew-y-0">
+    <div class="bg-dark_gray light:bg-light_gray skew-y-12 text-white light:text-black mt-10 sm:skew-y-0">
         <div class="-skew-y-12 text-center mx-8 pb-24 sm:skew-y-0 sm:pb-40 sm:mx-24">
             <h2 class="pt-14 text-xl font-medium font-metal-mania">Retrouvez le détail du programme du festival</h2>
             <dropdown-vue class="mt-10 font-mulish text-xl"
@@ -33,7 +33,7 @@
   <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
-        <p class="text-white dark:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
+        <p class="text-white light:text-black mb-3 underline sm:text-lg">Suivez-nous ici:</p>
         <div class="flex justify-between items-center">
           <a href="https://www.facebook.com/">
             <svg class="mx-2 sm:mx-7" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="45px" height="45px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
@@ -47,7 +47,7 @@
         </div>
       </div>
       <router-link to="/mentionslegales">
-        <p class="text-white dark:text-black underline mt-12 sm:text-xl">Mentions légales</p>
+        <p class="text-white light:text-black underline mt-12 sm:text-xl">Mentions légales</p>
       </router-link>
     </div>
   </footer>
