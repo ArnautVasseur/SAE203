@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 skew-y-12 text-white mt-10 sm:skew-y-0">
+    <div class="bg-dark_gray skew-y-12 text-white mt-10 sm:skew-y-0">
         <div class="-skew-y-12 text-center mx-8 pb-24 sm:skew-y-0 sm:pb-40 sm:mx-24">
             <h2 class="pt-14 text-xl font-medium font-metal-mania">Retrouvez le détail du programme du festival</h2>
             <dropdown-vue class="mt-10 font-mulish text-xl"
@@ -30,7 +30,7 @@
     
 
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
