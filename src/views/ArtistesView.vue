@@ -2,7 +2,7 @@
   <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
       <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:skew-y-0">
           <p class="py-8">Découvrez en détail les artistes présents lors du festival</p>
-          <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5">
+          <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5 sm:mb-14">
           <div class="mb-10">
             <router-link to="/concert">
             <img src="../assets/images/Queen.webp" alt="Queen" class="border-4 rounded-xl border-white hover:border-red-700">
@@ -56,9 +56,10 @@
           </div>
       </div>
     </div>
-
-  <p class="mb-5 text-center mt-10 text-2xl font-medium">Retour en haut de la page</p>
-        <img src="../components/icons/UpArrow.svg" alt="uparrow" class="mb-40 m-auto block">
+    <div class="sm:hidden">
+      <p class="mb-5 text-center mt-10 text-2xl font-medium">Retour en haut de la page</p>
+      <img src="../components/icons/UpArrow.svg" alt="uparrow" class="mb-40 m-auto block">
+    </div>
 
 
   <!--footer-->
