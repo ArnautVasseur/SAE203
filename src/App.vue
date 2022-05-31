@@ -56,7 +56,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </button>
 
     <div id="menu" class="z-50 fixed inset-0 translate-x-full bg-slate-900 motion-safe:duration-1000 motion-safe:transition-transform
-    animate-fadeInRight"
+    animate-fadeInDown"
         :class="{ 'translate-x-0': menuOuvert }" v-if="menuOuvert">
           <div class="flex-col text-black text-center text-3xl my-40">
             <button class="z-50 absolute top-6 right-8" aria-haspopup="true" aria-controls="menu" 
