@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-900 text-white -skew-y-6 mt-10 w-full h-[930px] sm:skew-y-0"> 
+    <div class="bg-dark_gray text-white -skew-y-6 mt-10 w-full h-[930px] sm:skew-y-0"> 
         <div class="skew-y-6 mx-8 font-bold text-center text-2xl flex-col sm:skew-y-0 sm:mx-24">
             <p class="pt-8 font-metal-mania text-3xl">Billets jours simples</p>
             <div class="m-auto text-black font-mulish">
@@ -27,7 +27,7 @@
         <img src="../components/icons/UpArrow.svg" alt="uparrow" class="mb-40 m-auto block">
         
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
