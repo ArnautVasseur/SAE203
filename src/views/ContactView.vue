@@ -13,7 +13,38 @@
         <p class="mb-8">Ainsi qu’avec ce numéro disponible tous les jours jusque 22h:</p>
         <p class="underline">06 99 98 97 96</p>
     </div>
+    <form class="mx-16 skew-y-6 sm:skew-y-0 sm:mx-24 mb-10">
+      <div class="mb-6">
+          <input type="text" placeholder="Prénom / Nom" class=" w-full rounded p-3 text-gray-800 dark:text-gray-50 dark:bg-slate-700 border-gray-500 dark:border-slate-600 outline-none focus-visible:shadow-none focus:border-primary "
+              name="full_name"
+              id="full_name"/>
+      </div>
+      <div class="mb-6">
+          <input type="email" placeholder="Email" class=" w-full rounded p-3 text-gray-800 dark:text-gray-50 dark:bg-slate-700 border-gray-500 dark:border-slate-600 outline-none focus-visible:shadow-none focus:border-primary "
+              name="email"
+              id="email"/>
+      </div>
+      <div class="mb-6">
+          <input inputMode="numeric" placeholder="N°Téléphone" class=" w-full rounded p-3 text-gray-800 dark:text-gray-50 dark:bg-slate-700 border-gray-500 dark:border-slate-600 outline-none focus-visible:shadow-none focus:border-primary "
+              name="phone_number"
+              id="phone_number"/>
+      </div>
+      <div class="mb-6">
+          <textarea rows="6" placeholder="Votre message" class="w-full rounded p-3 text-gray-800 dark:text-gray-50 dark:bg-slate-700 border-gray-500 dark:border-slate-600 outline-none focus-visible:shadow-none focus:border-primary "
+              name="message"
+              id="message">
+          </textarea>
+      </div>
+      <div>
+          <button type="submit"
+              class="text-gray-100 hover:text-white bg-red-700 rounded border border-primary dark:border-slate-600 p-3 transition ease-in-out duration-400 hover:bg-red-900 w-40">
+              Envoyer
+          </button>
+      </div>
+  </form>
   </div>
+
+  
   
   <!--Design effect-->
     <div class="bg-gray-900 w-full h-44 -mt-40"></div>

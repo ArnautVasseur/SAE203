@@ -1,28 +1,52 @@
 <template>
-    <img class="mt-7 w-full" src="../assets/images/Background_homepage.webp" alt="homepagebackground">
-    <div class="bg-gray-900 text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0"> 
-        <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:-skew-y-0">
-            <p class="pt-8 mb-5">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
-            <router-link to="/billeterie">
-                <redbuttonVue>
-                    <slot>
-                        Réserver
-                    </slot>
-                </redbuttonVue>
-            </router-link>
-        </div>
+  <div class="flex-col flex mt-7 md:flex-row md:items-center md:h-[320px] md:mb-10">
+    <section
+      class="relative w-full flex gap-6 snap-x overflow-x-auto pb-12 md:h-[320px] md:w-[550px]">
+      <div class="snap-center shrink-0 first:pl-8 last:pr-8 md:first:pl-0 md:first:pr-0">
+        <img
+          class="shrink-0 w-80 h-40 rounded-lg shadow-xl md:h-[320px] md:w-[550px] bg-black"
+          src="../assets/images/background_concert.webp"/>
+      </div>
+      <div class="snap-center shrink-0 first:pl-8 last:pr-8">
+        <img
+          class="shrink-0 w-80 h-40 rounded-lg shadow-xl md:h-[320px] md:w-[550px] bg-black"
+          src="../assets/images/background_festival.webp"/>
+      </div>
+      <div class="snap-center shrink-0 first:pl-8 last:pr-8">
+        <img
+          class="shrink-0 w-80 h-40 rounded-lg shadow-xl md:h-[320px] md:w-[550px] bg-black"
+          src="../assets/images/Background_homepage.webp"/>
+      </div>
+    </section>
+
+    <!--CAROUSEL-->
+      <div class="bg-gray-900 text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0 md:mb-0 md:h-full md:mt-0"> 
+          <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:-skew-y-0 my-10 md:my-16">
+              <p class="pt-3 mb-5 md:pt-8">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
+              <router-link to="/billeterie">
+                  <redbuttonVue>
+                      <slot>
+                          Réserver
+                      </slot>
+                  </redbuttonVue>
+              </router-link>
+          </div>
+      </div>
     </div>
-    <div>
-        <h2 class="mb-5 text-center text-2xl font-bold">Ne manquez pas vos artistes préférés !</h2>
-        <div class="flex mb-32 mx-8 items-center justify-around">
-            <p class="text-2xl font-medium">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
-            <router-link to="/programme">
-                <img src="../assets/images/calendar.webp" alt="calendar" class="w-32">
-            </router-link>
-        </div>
-    </div>
-    <div class="bg-gray-900 text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0"> 
-        <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
+
+    <div class=" flex flex-col md:flex-row-reverse md:h-[320px] md:mt-10">
+      <div class="md:h-[320px] md:w-1/2">
+          <h2 class="mb-5 text-center text-2xl font-bold">Ne manquez pas vos artistes préférés !</h2>
+          <div class="flex mb-32 mx-8 items-center justify-around">
+              <p class="text-2xl font-medium">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
+              <router-link to="/programme">
+                  <img src="../assets/images/calendar.webp" alt="calendar" class="w-32">
+              </router-link>
+          </div>
+      </div>
+      <div class="bg-gray-900 text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
+          <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
+      </div>
     </div>
     <!--footer-->
   <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
