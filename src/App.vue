@@ -44,7 +44,6 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
     </div>
   </div>
-  
   <!--Début Menu-->
   <nav class="overflow-hidden h-full lg:hidden font-metal-mania">
     <button class="z-50 absolute top-6 right-8" aria-haspopup="true" aria-controls="menu" 
