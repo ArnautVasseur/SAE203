@@ -20,7 +20,7 @@
     </section>
 
     <!--CAROUSEL-->
-      <div class="bg-gray-900 text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0 md:mb-0 md:h-full md:mt-0"> 
+      <div class="bg-dark_gray text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0 md:mb-0 md:h-full md:mt-0"> 
           <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:-skew-y-0 my-10 md:my-16">
               <p class="pt-3 mb-5 md:pt-8 font-metal-mania">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
               <router-link to="/billeterie">
@@ -44,12 +44,12 @@
               </router-link>
           </div>
       </div>
-      <div class="bg-gray-900 text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
+      <div class="bg-dark_gray text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
           <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0 font-mulish">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
       </div>
     </div>
     <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
