@@ -1,23 +1,23 @@
 <template>
   <img src="../assets/images/background_festival.webp" alt="backgroundfestival" class="mt-10 w-full">
-  <div class="bg-gray-900 text-white -skew-y-12 -mt-10 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray text-white -skew-y-12 -mt-10 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish">Thème</h2>
           <p class="text-lg">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish">Propreté</h2>
           <p class="text-lg">Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center pb-20 sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
-        <div class="bg-gray-300 w-full m-auto block p-5 rounded-xl text-black">
+        <div class="bg-light_gray w-full m-auto block p-5 rounded-xl text-black">
           <h2 class="text-center font-medium text-3xl mb-3 font-mulish">Thème</h2>
           <p class="text-lg">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
@@ -25,14 +25,14 @@
   </div>
 
     <!--Design effect-->
-    <div class="bg-gray-900 w-full h-44 -mt-16"></div>
+    <div class="bg-dark_gray w-full h-44 -mt-16"></div>
     <!--Design effect-->
   
   
   
   
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
