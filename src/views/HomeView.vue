@@ -36,20 +36,20 @@
 
     <div class=" flex flex-col md:flex-row-reverse md:h-[320px] md:mt-10">
       <div class="md:h-[320px] md:w-1/2">
-          <h2 class="mb-5 text-center text-3xl font-bold font-metal-mania mx-5">Ne manquez pas vos artistes préférés !</h2>
+          <h2 class="mb-5 text-center text-3xl font-bold font-metal-mania mx-5 dark:text-white">Ne manquez pas vos artistes préférés !</h2>
           <div class="flex mb-32 mx-8 items-center justify-around">
-              <p class="text-2xl font-medium font-mulish">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
+              <p class="text-2xl font-medium font-mulish dark:text-white">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
               <router-link to="/programme">
                   <img src="../assets/images/calendar.webp" alt="calendar" class="w-32">
               </router-link>
           </div>
       </div>
-      <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
+      <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black skew-y-12 py-10 -mt-10 mb-10 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
           <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0 font-mulish">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
       </div>
     </div>
     <router-link to="styleguide">
-      <p class="text-center">Guide de styme</p>
+      <p class="text-center dark:text-white mb-44">Guide de style</p>
     </router-link>
     <!--footer-->
   <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">

@@ -4,22 +4,22 @@
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
         <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
-          <h2 class="text-center font-medium text-3xl mb-3 font-mulish dark:text-white">Thème</h2>
-          <p class="text-lg dark:text-white">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
+          <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Thème</h2>
+          <p class="text-lg ">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
         <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
-          <h2 class="text-center font-medium text-3xl mb-3 font-mulish dark:text-white">Propreté</h2>
-          <p class="text-lg dark:text-white">Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
+          <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Propreté</h2>
+          <p class="text-lg ">Un nombre conséquent de bénévoles seront au rendez-vous pour garder un environnement sain et propre pour que tout le monde passe le meilleur moment possible</p>
         </div>
     </div>
     <div class="skew-y-12 mx-8 text-center pb-20 sm:skew-y-0 sm:mx-24">
         <p class="pt-8 mb-5"></p>
         <div class="bg-light_gray dark:bg-dark_gray w-full m-auto block p-5 rounded-xl text-black">
-          <h2 class="text-center font-medium text-3xl mb-3 font-mulish dark:text-white">Thème</h2>
-          <p class="text-lg dark:text-white">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
+          <h2 class="text-center font-medium text-3xl mb-3 font-mulish ">Thème</h2>
+          <p class="text-lg ">Comme vous auriez déjà pu le deviner, le thème de ce festival sera le rock et plus précisément le rock mélancolique des années 80-90. Amoureux de l’apogée du métal, venez nombreux !</p>
         </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-dark_gray text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0">
         <p class="pt-8 mb-8 mt-5 font-bold font-mulish text-xl">Rejoignez la communauté :</p>
         <div class="flex justify-around mb-5">
