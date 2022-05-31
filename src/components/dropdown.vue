@@ -1,5 +1,5 @@
 <template>
-   <select name="program" id="select"  class="bg-red-900 text-white w-full text-center py-2 rounded-xl">
+   <select name="program" id="select"  class="bg-dark_red text-white w-full text-center py-2 rounded-xl">
     <option value="" >{{date}}</option>
     <option value="" class="bg-white text-black">{{matin}}</option>
     <option value="" class="bg-white text-black">{{aprèsmidi}}</option>
