@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-900 text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0 sm:mx-32">
-        <p class="pt-8 mb-8 mt-5 font-bold">Détail Concert Bon Jovi</p>
-        <div class="bg-gray-300 w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold">
+        <p class="pt-8 mb-8 mt-5 font-bold font-metal-mania text-2xl">Détail Concert Bon Jovi</p>
+        <div class="bg-gray-300 w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold font-mulish">
           <p class="my-5">Livin' on a prayer</p>
           <p class="my-5">You Give Love A Bad Name</p>
           <p class="my-5">It’s My Life</p>
