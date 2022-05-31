@@ -5,7 +5,6 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div v-if="!['PageNotExist'].includes($route.name)">
   <div class="flex justify-around">
-
       <div class="flex-col">
         <RouterLink to="/">
           <img src="./components/icons/Logo.svg" alt="Logo" class="m-auto w-20 mt-5 sm:w-32"/>
