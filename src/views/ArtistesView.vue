@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
+  <div class="bg-dark_gray text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
       <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:skew-y-0">
           <p class="py-8 font-metal-mania">Découvrez en détail les artistes présents lors du festival</p>
           <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5 sm:mb-14 font-mulish">
@@ -63,7 +63,7 @@
 
 
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
