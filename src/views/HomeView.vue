@@ -73,7 +73,6 @@
     <!--footer-->
 </template>
 
-
 <script>
 import redbuttonVue from '../components/redbutton.vue';
 
