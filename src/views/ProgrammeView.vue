@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import dropdownVue from '../components/drowdown.vue'
+import dropdownVue from '../components/dropdown.vue'
 
 export default {
     name:"",

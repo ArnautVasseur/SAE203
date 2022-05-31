@@ -48,6 +48,9 @@
           <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0 font-mulish">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
       </div>
     </div>
+    <router-link to="styleguide">
+      <p class="text-center">Guide de styme</p>
+    </router-link>
     <!--footer-->
   <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
