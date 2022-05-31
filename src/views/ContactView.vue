@@ -1,6 +1,6 @@
 <template>
 
-  <div class="bg-gray-900 text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0">
         <p class="pt-8 mb-8 mt-5 font-bold font-mulish text-xl">Rejoignez la communauté :</p>
         <div class="flex justify-around mb-5">
@@ -37,7 +37,7 @@
       </div>
       <div>
           <button type="submit"
-              class="text-gray-100 hover:text-white bg-red-700 rounded border border-primary dark:border-slate-600 p-3 transition ease-in-out duration-400 hover:bg-red-900 w-40">
+              class="text-gray-100 hover:text-white bg-light_red rounded border border-primary dark:border-slate-600 p-3 transition ease-in-out duration-400 hover:bg-red-900 w-40">
               Envoyer
           </button>
       </div>
@@ -47,11 +47,11 @@
   
   
   <!--Design effect-->
-    <div class="bg-gray-900 w-full h-44 -mt-40"></div>
+    <div class="bg-dark_gray w-full h-44 -mt-40"></div>
   <!--Design effect-->
 
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
         <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>

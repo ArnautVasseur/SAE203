@@ -1,5 +1,5 @@
 <template>
-    <section class="flex items-center p-16 dark:bg-gray-900 dark:text-gray-100">
+    <section class="flex items-center p-16 dark:bg-dark_gray dark:text-gray-100">
 		<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
 			<div class="max-w-md text-center">
 				<h2 class="mb-40 font-extrabold text-9xl dark:text-gray-600">
