@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark_gray text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
+  <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
       <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:skew-y-0">
           <p class="py-8 font-metal-mania">Découvrez en détail les artistes présents lors du festival</p>
           <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5 sm:mb-14 font-mulish">
