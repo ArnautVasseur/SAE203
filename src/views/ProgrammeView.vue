@@ -1,26 +1,26 @@
 <template>
     <div class="bg-gray-900 skew-y-12 text-white mt-10 sm:skew-y-0">
         <div class="-skew-y-12 text-center mx-8 pb-24 sm:skew-y-0 sm:pb-40 sm:mx-24">
-            <h2 class="pt-14 text-xl font-medium">Retrouvez le détail du programme du festival</h2>
-            <dropdown-vue class="mt-10"
+            <h2 class="pt-14 text-xl font-medium font-metal-mania">Retrouvez le détail du programme du festival</h2>
+            <dropdown-vue class="mt-10 font-mulish text-xl"
                 date="22 juillet 2023"
                 matin="9h-12h: Bon Jovi"
                 aprèsmidi="14h-17h: Europe"
                 soir="20h-23h: Aerosmith"/>
 
-                <dropdown-vue class="mt-10"
+                <dropdown-vue class="mt-10 font-mulish text-xl"
                 date="23 juillet 2023"
                 matin="9h-12h: Bon Jovi"
                 aprèsmidi="14h-17h: Europe"
                 soir="20h-23h: Aerosmith"/>
 
-                <dropdown-vue class="mt-10"
+                <dropdown-vue class="mt-10 font-mulish text-xl"
                 date="24 juillet 2023"
                 matin="9h-12h: Bon Jovi"
                 aprèsmidi="14h-17h: Europe"
                 soir="20h-23h: Aerosmith"/>
 
-                <dropdown-vue class="mt-10"
+                <dropdown-vue class="mt-10 font-mulish text-xl"
                 date="25 juillet 2023"
                 matin="9h-12h: Bon Jovi"
                 aprèsmidi="14h-17h: Europe"
