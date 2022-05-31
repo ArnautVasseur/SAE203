@@ -29,7 +29,9 @@ module.exports =  withAnimations ({
          "full": "9999px"
         },
         "backgroundColor":{
-          
+          "dark_gray": "rgb(17 24 39)",
+          "light_red":"rgb(185 28 28)",
+          "dark_red":"rgb(127 29 29)"
         }
     },
   },
