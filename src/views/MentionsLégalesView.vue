@@ -1,20 +1,20 @@
 <template>
-    <div class="bg-dark_gray text-white skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0 sm:text-lg font-mulish"> 
+    <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0 sm:text-lg font-mulish"> 
       <div class="-skew-y-6 mx-8 pb-16 pt-10 sm:skew-y-0 sm:mx-20">
-          <h2 class="my-6">MENTIONS LÉGALES</h2>
-          <p class="my-6">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Métalancolique l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
-          <h2 class="my-6">Edition du site </h2>
-          <p class="my-6">Le présent site, accessible à l’URL www.métalancolique.arnaut.fr (le « Site »), est édité par :</p>
-          <p class="my-6">L’association Métalancolique, enregistrée auprès de la préfecture/sous-préfecture de 10 - Préfecture Troyes sous le numéro W123456789, ayant son siège situé à 72 Faubourg de Montbéliard, représentée par Arnaut Vasseur dûment habilité(e)</p>
-          <p class="my-6">Hébergement</p>
-          <p class="my-6">Le Site est hébergé par la société Infomaniak, situé Rue Eugène-Marziano 25, 1227 Genève, Suisse, (contact téléphonique ou email : (+41) 22 820 35 44).</p>
+          <h2 class="my-6 dark:text-white">MENTIONS LÉGALES</h2>
+          <p class="my-6 dark:text-white">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l'économie numérique, il est précisé aux utilisateurs du site Métalancolique l'identité des différents intervenants dans le cadre de sa réalisation et de son suivi.</p>
+          <h2 class="my-6 dark:text-white">Edition du site </h2>
+          <p class="my-6 dark:text-white">Le présent site, accessible à l’URL www.métalancolique.arnaut.fr (le « Site »), est édité par :</p>
+          <p class="my-6 dark:text-white">L’association Métalancolique, enregistrée auprès de la préfecture/sous-préfecture de 10 - Préfecture Troyes sous le numéro W123456789, ayant son siège situé à 72 Faubourg de Montbéliard, représentée par Arnaut Vasseur dûment habilité(e)</p>
+          <p class="my-6 dark:text-white">Hébergement</p>
+          <p class="my-6 dark:text-white">Le Site est hébergé par la société Infomaniak, situé Rue Eugène-Marziano 25, 1227 Genève, Suisse, (contact téléphonique ou email : (+41) 22 820 35 44).</p>
       </div>
     </div>
   <!--footer-->
-  <footer v-if="!menuOuvert" class="bg-red-900 w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
+  <footer v-if="!menuOuvert" class="bg-dark_red w-full z-40 -mb-11 h-40 fixed bottom-0 skew-y-12 px-5 pt-3 sm:skew-y-0 font-mulish">
     <div class="-skew-y-12 sm:skew-y-0 flex justify-between">
       <div class="flex-col sm:flex-row sm:flex sm:items-center">
-        <p class="text-white mb-3 underline sm:text-lg">Suivez-nous ici:</p>
+        <p class="text-white mb-3 underline sm:text-lg dark:text-black">Suivez-nous ici:</p>
         <div class="flex justify-between items-center">
           <a href="https://www.facebook.com/">
             <svg class="mx-2 sm:mx-7" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="45px" height="45px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
@@ -28,7 +28,7 @@
         </div>
       </div>
       <router-link to="/mentionslegales">
-        <p class="text-white underline mt-12 sm:text-xl">Mentions légales</p>
+        <p class="text-white dark:text-black underline mt-12 sm:text-xl">Mentions légales</p>
       </router-link>
     </div>
   </footer>
