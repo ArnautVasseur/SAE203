@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-dark_gray text-white -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
+  <div class="bg-dark_gray dark:bg-light_gray text-white dark:text-black -skew-y-6 mt-10 mb-24 inline-block w-full sm:skew-y-0"> 
     <div class="skew-y-6 mx-8 text-center text-2xl pb-16 sm:skew-y-0 sm:mx-32">
         <p class="pt-8 mb-8 mt-5 font-bold font-metal-mania text-2xl">Détail Concert Bon Jovi</p>
-        <div class="bg-light_gray w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold font-mulish">
+        <div class="bg-light_gray dark:bg-dark_gray w-full p-5 rounded-xl text-black text-lg font-medium sm:font-semibold font-mulish">
           <p class="my-5">Livin' on a prayer</p>
           <p class="my-5">You Give Love A Bad Name</p>
           <p class="my-5">It’s My Life</p>
@@ -24,7 +24,7 @@
     </div>
   </div>
   <!--Design effect-->
-    <div class="bg-dark_gray w-full h-44 -mt-40"></div>
+    <div class="bg-dark_gray dark:bg-light_gray w-full h-44 -mt-40"></div>
   <!--Design effect-->
 
   <!--footer-->
