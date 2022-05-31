@@ -22,7 +22,7 @@
     <!--CAROUSEL-->
       <div class="bg-gray-900 text-white -skew-y-6 -mt-10 mb-24 h-60 w-full inline-block sm:skew-y-0 md:mb-0 md:h-full md:mt-0"> 
           <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:-skew-y-0 my-10 md:my-16">
-              <p class="pt-3 mb-5 md:pt-8">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
+              <p class="pt-3 mb-5 md:pt-8 font-metal-mania">Festival débutant le 22 juillet 2023 jusqu'au 25 juillet 2023</p>
               <router-link to="/billeterie">
                   <redbuttonVue>
                       <slot>
@@ -36,16 +36,16 @@
 
     <div class=" flex flex-col md:flex-row-reverse md:h-[320px] md:mt-10">
       <div class="md:h-[320px] md:w-1/2">
-          <h2 class="mb-5 text-center text-2xl font-bold">Ne manquez pas vos artistes préférés !</h2>
+          <h2 class="mb-5 text-center text-3xl font-bold font-metal-mania mx-5">Ne manquez pas vos artistes préférés !</h2>
           <div class="flex mb-32 mx-8 items-center justify-around">
-              <p class="text-2xl font-medium">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
+              <p class="text-2xl font-medium font-mulish">consulter le détail du <router-link to="/programme"><span class="underline">programme ici:</span></router-link></p>
               <router-link to="/programme">
                   <img src="../assets/images/calendar.webp" alt="calendar" class="w-32">
               </router-link>
           </div>
       </div>
       <div class="bg-gray-900 text-white skew-y-12 py-10 -mt-10 mb-44 inline-block w-full sm:skew-y-0 md:h-[320px] md:w-1/2 md:pt-14"> 
-          <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
+          <p class="-skew-y-12 mx-8 font-bold text-2xl flex-col text-center sm:skew-y-0 font-mulish">Une question ? N’hésitez pas à nous contacter grâce aux informations <router-link to="/contact" class="underline">disponibles ici:</router-link></p>
       </div>
     </div>
     <!--footer-->
