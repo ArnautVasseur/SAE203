@@ -1,8 +1,8 @@
 <template>
     <div class="bg-gray-900 text-white -skew-y-6 mt-10 w-full h-[930px] sm:skew-y-0"> 
         <div class="skew-y-6 mx-8 font-bold text-center text-2xl flex-col sm:skew-y-0 sm:mx-24">
-            <p class="pt-8">Billets jours simples</p>
-            <div class="m-auto text-black">
+            <p class="pt-8 font-metal-mania text-3xl">Billets jours simples</p>
+            <div class="m-auto text-black font-mulish">
                 <billeterieVue class="my-10"
                 date="22 juillet 2023"/>
                 <billeterieVue class="my-10"
@@ -14,8 +14,8 @@
             </div>
         </div>
     </div>
-    <h2 class="text-center mt-10 text-black text-2xl mb-10 font-bold">Formules</h2>
-        <div class="m-auto sm:mx-24 mx-8">
+    <h2 class="text-center mt-10 text-black mb-10 font-bold font-metal-mania text-3xl">Formules</h2>
+        <div class="m-auto sm:mx-24 mx-8 font-mulish">
             <formuleVue class="mb-10"
             formule="Formule Week-End"
             dates="22-23 juillet 2023"/>
@@ -23,7 +23,7 @@
             formule="Formule Complète"
             dates="22-23-24-25 juillet 2023"/>
         </div>
-    <p class="mb-5 text-center mt-10 text-2xl font-medium">Retour en haut de la page</p>
+    <p class="mb-5 text-center mt-10 text-2xl font-semibold font-mulish">Retour en haut de la page</p>
         <img src="../components/icons/UpArrow.svg" alt="uparrow" class="mb-40 m-auto block">
         
   <!--footer-->
