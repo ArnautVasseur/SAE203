@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-900 text-white mt-10 -skew-y-6 mb-10 w-full inline-block sm:skew-y-0"> 
       <div class="skew-y-6 mx-8 font-bold text-center text-2xl sm:skew-y-0">
-          <p class="py-8">Découvrez en détail les artistes présents lors du festival</p>
-          <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5 sm:mb-14">
+          <p class="py-8 font-metal-mania">Découvrez en détail les artistes présents lors du festival</p>
+          <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,300px))] justify-between mb-5 sm:mb-14 font-mulish">
           <div class="mb-10">
             <router-link to="/concert">
             <img src="../assets/images/Queen.webp" alt="Queen" class="border-4 rounded-xl border-white hover:border-red-700">
