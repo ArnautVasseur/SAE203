@@ -8,6 +8,7 @@ import ContactView from '../views/ContactView.vue'
 import MentionsLégalesView from '../views/MentionsLégalesView.vue'
 import BilleterieView from '../views/BilleterieView.vue'
 import StyleGuideView from '../views/StyleGuideView.vue'
+import ListeView from '../views/ListeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,7 @@ const router = createRouter({
     { path: "/:catchAll(.*)", redirect: '/404',},
     { path: '/404', name: 'PageNotExist', component: () => import('../views/Page404.vue')},
     { path: '/styleguide',   name: 'styleguide',    component: StyleGuideView},
+    { path: '/listeview',   name: 'listeview',    component: ListeView},
   ]
 })
 
