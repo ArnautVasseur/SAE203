@@ -10,6 +10,7 @@ import BilleterieView from '../views/BilleterieView.vue'
 import StyleGuideView from '../views/StyleGuideView.vue'
 import ListeView from '../views/ListeView.vue'
 import CreateView from '../views/CreateView.vue'
+import ConnexionView from '../views/ConnexionView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,7 @@ const router = createRouter({
     { path: '/styleguide',   name: 'styleguide',    component: StyleGuideView},
     { path: '/liste',   name: 'liste',    component: ListeView},
     { path: '/create',   name: 'create',    component: CreateView},
+    { path: '/connexion',   name: 'connexion',    component: ConnexionView},
   ]
 })
 
