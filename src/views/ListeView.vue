@@ -13,7 +13,7 @@
             <button type="button"  title="Filtrage">
                 filtrage
             </button>   
-        <form v-for="artistes in filterByName" :key="artistes.id">
+        <form v-for="artistes in filterByArtistes" :key="artistes.id">
             <img :src="artistes.image" alt="image" class="w-32 h-32">
             <div>
                 <input type="text" v-model='artistes.nom' required class="mt-2 border-2"/>
@@ -21,6 +21,32 @@
                 Modify
                 </button>
                 <button type="button" @click="deleteArtistes(artistes)" title="Suppression">
+                Delete
+                </button>
+            </div>
+        </form>
+
+
+        <h2 class="mt-16">Liste des participants</h2>
+        <form>
+            <div>
+            <input type="text" class="border-2" v-model='nom' required />
+            <button type="button" @click='createParticipant()' title="Création">
+                Create
+            </button>
+            </div>
+        </form>
+            <input type="text" v-model="filter" class="border-2"/>
+            <button type="button"  title="Filtrage">
+                filtrage
+            </button>   
+        <form v-for="participant in filterByParticipant" :key="participant.id">
+            <div>
+                <input type="text" v-model='participant.nom' required class="mt-2 border-2"/>
+                <button type="button" class="mx-2" @click="updateParticipant(participant)" title="Modification">
+                Modify
+                </button>
+                <button type="button" @click="deleteParticipant(participant)" title="Suppression">
                 Delete
                 </button>
             </div>
@@ -54,26 +80,45 @@ import {
                 },
                 message:null, 
                 nom:null, 
-                listeArtistesSynchro:[] ,
+                listeArtistesSynchro:[],
+                listeParticipantSynchro:[],
                 filter:''
             }
         },
           computed:{
-            orderByName:function(){
+            orderByArtistes:function(){
             return this.listeArtistesSynchro.sort(function(a,b){
                 if(a.nom < b.nom) return -1;
                 if(a.nom > b.nom) return 1;
                 return 0;
             });
             },
-            filterByName:function(){
+            filterByArtistes:function(){
             if(this.filter.length > 0){
                 let filter = this.filter.toLowerCase();
-                return this.orderByName.filter(function(artistes){
+                return this.orderByArtistes.filter(function(artistes){
                 return artistes.nom.toLowerCase().includes(filter);
                 })
             }else{
-                return this.orderByName;
+                return this.orderByArtistes;
+            }
+            },
+
+            orderByParticipant:function(){
+            return this.listeParticipantSynchro.sort(function(a,b){
+                if(a.nom < b.nom) return -1;
+                if(a.nom > b.nom) return 1;
+                return 0;
+            });
+            },
+            filterByParticipant:function(){
+            if(this.filter.length > 0){
+                let filter = this.filter.toLowerCase();
+                return this.orderByParticipant.filter(function(participant){
+                return participant.nom.toLowerCase().includes(filter);
+                })
+            }else{
+                return this.orderByParticipant;
             }
             }
         },
@@ -90,6 +135,7 @@ import {
 
            
             this.getArtistesSynchro();
+            this.getParticipantSynchro();
         },
 
         methods:{
@@ -122,6 +168,37 @@ import {
             async deleteArtistes(artistes){
                 const firestore = getFirestore();
                 const docRef = doc(firestore, "artistes", artistes.id);
+                await deleteDoc(docRef);
+             },
+
+             async getParticipantSynchro(){
+                const firestore = getFirestore();
+                const dbParticipant= collection(firestore, "participant");
+                const query = await onSnapshot(dbParticipant, (snapshot) =>{
+                this.listeParticipantSynchro = snapshot.docs.map(doc => ({id:doc.id, ...doc.data()}));
+                })
+            },
+
+            async createParticipant(){
+                const firestore = getFirestore();
+                const dbParticipant= collection(firestore, "participant");
+                const docRef = await addDoc(dbParticipant,{
+                    nom: this.nom
+                })
+                //console.log('document créé avec le id : ', docRef.id);
+             },
+
+            async updateParticipant(participant){
+                const firestore = getFirestore();
+                const docRef = doc(firestore, "participant", participant.id);
+                await updateDoc(docRef, {
+                    nom: participant.nom
+                }) 
+             },
+
+            async deleteParticipant(participant){
+                const firestore = getFirestore();
+                const docRef = doc(firestore, "participant", participant.id);
                 await deleteDoc(docRef);
              },
 
