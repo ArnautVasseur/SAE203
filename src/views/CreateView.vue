@@ -32,11 +32,11 @@
                             <br/>
                             <div>
                                 <div>
-                                    <span>Date naissance</span>
+                                    <span>Date</span>
                                 </div>
                                 <input 
                                     type="date"
-                                    v-model="artistes.naissance"
+                                    v-model="artistes.creation"
                                     format="dd/mm/yyyy" 
                                     required />                    
                             </div>
@@ -146,7 +146,7 @@ export default {
             // Obtenir storage Firebase
             const storage = getStorage();
             // Référence de l'image à uploader
-            const refStorage = ref(storage, 'artistes/'+this.artistes.photo);
+            const refStorage = ref(storage, 'artistes/'+this.artistes.image);
             // Upload de l'image sur le Cloud Storage
             await uploadString(refStorage, this.imageData, 'data_url').then((snapshot) => {
                 console.log('Uploaded a base64 string');

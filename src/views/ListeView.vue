@@ -15,7 +15,6 @@
             </button>   
         <form v-for="artistes in filterByName" :key="artistes.id">
             <img :src="artistes.image" alt="image" class="w-32 h-32">
-            <p></p>
             <div>
                 <input type="text" v-model='artistes.nom' required class="mt-2 border-2"/>
                 <button type="button" class="mx-2" @click="updateArtistes(artistes)" title="Modification">
