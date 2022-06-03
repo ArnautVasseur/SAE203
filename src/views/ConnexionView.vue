@@ -11,7 +11,6 @@
                                             v-model="user.email" required
                                             />                    
                                     </div>
-
                                     <div class="input-group mb-3">
                                         <input 
                                             class="form-control w-full h-12 p-3 rounded-xl" placeholder="Mot de passe" 
